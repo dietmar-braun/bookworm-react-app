@@ -16,8 +16,8 @@ function App() {
           <Typography variant='h1' component='h1' data-test='heading'>
             Bookwormers 
           </Typography>
-          <Typography variant='h2' component='h2' data-test='heading'>
-            Enjoy reading & education  
+          <Typography variant='h2' component='h2' data-test='subheading'>
+            Enjoy Reading & Level Up Yourself  
           </Typography>
         </hgroup>
         
