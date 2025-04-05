@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 
 
 function App() {
@@ -20,6 +20,14 @@ function App() {
           </Typography>
         </hgroup>
         
+        <ul data-test='book-list'>
+          <div className='book-item'>
+            <h2 className='title'>Refactoring</h2>
+          </div>
+          <div className='book-item'>
+            <h2 className='title'>Domain-driven design</h2>
+          </div>
+        </ul>
       </div>
     </>
   )
